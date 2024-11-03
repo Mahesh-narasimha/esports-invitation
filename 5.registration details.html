@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esports Registration</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(black\ image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    color: white;
+
+    text-align: center;
+    padding: 50px 20px;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 50px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-weight: bold;
+    font-size: 26px;
+    color: white;
+    text-decoration:none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.registration-form {
+    max-height: 900px;
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 20px;
+    background: back;
+    border-radius: 8px;
+}
+
+.registration-form h2 {
+    color: white;
+    text-align: center;
+}
+
+.registration-form label {
+    color: white;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.registration-form input,
+.registration-form select {
+
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.cta-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #ff5722;
+    color: white;
+    text-decoration: none;
+    border-radius: 16px;
+    font-size: 30px;
+    width: 300px;
+    text-align: center;
+    margin-left: 55px;
+}
+
+.cta-button:hover {
+    background: #e64a19; /* Darker shade on hover */
+    transform: scale(1.1);
+    transition: transform 0.2s ease-out;
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Esports Registration</h1>
+        <nav>
+            <ul>
+                <li><a href="1.home.html">Home</a></li>
+                <li><a href="2.registration.html">Our Games</a></li>
+                <li><a href="3.tournament.html">Tournament Details</a></li>
+                <li><a href="4.contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="registration-form">
+        <h2>Register for the Tournament</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" >
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" >
+
+            <label for="number">Phone Number:</label>
+            <input type="tel" id="number" name="number" >
+
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state" >
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" >
+                <option value="">Select...</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <div></div>
+
+                <a href="6.successful.html" class="cta-button">Register</a>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Esports Invitation. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
